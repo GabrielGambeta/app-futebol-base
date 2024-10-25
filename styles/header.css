@@ -1,0 +1,16 @@
+.cabecalho {
+    padding: 1.5em 0 0 15em;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+
+.cabecalho__menu__link {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-titulo);
+    text-decoration: none;
+}

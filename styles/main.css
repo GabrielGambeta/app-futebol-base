@@ -1,0 +1,129 @@
+.conteudo {
+    padding: 5em 15em;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+
+}
+
+.conteudo__principal {
+    width: 50%;
+    display: block;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conteudo__principal__titulo {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: var(--font);
+}
+
+.Caracteristicas__Fisicas__titulo {
+    font-size: 2rem;
+    font-family: var(--font);
+    margin: 1em 0 0 0;
+}
+
+.lista-tema-fisico {
+    display: list-item;
+    font-size: 1.5rem;
+    margin: 1em 0 0 0;
+}
+
+.lista-itens-fisico {
+    margin: 1em;
+    display: flex;
+}
+
+.conteudo__imagem__fisico {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.historico {
+    padding: 5em 15em;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.historico__clubes {
+    display: block;
+    margin: 1em;
+    font-size: 2em;
+}
+
+.historico__clubes__atual {
+    margin: 0 0 0 1.5em;
+    font-size: 1.3em;
+}
+
+.historico2 {
+    padding: 5em 15em;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.historico__clubes__titulo {
+    display: block;
+    margin: 1em;
+    font-size: 2em;
+}
+
+.historico__clubes__passados {
+    font-size: 0.8em;
+    margin: 1em 0 0 0;
+}
+
+.Caracteristicas {
+    padding: 5em 15em;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.Caracteristicas__tecnicas {
+    font-size: 2em;
+    margin:  1em 0 0 0;
+}
+
+.lista-tema-tecnica{
+    font-size: 1.5em;
+}
+
+.lista-itens-tecnica {
+    font-size: 0.8em;
+    margin: 1em 0 0 0;
+}
+
+.conteudo__imagem__tatica {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.rodape {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape__contato {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.contato__link {
+    text-decoration: none;
+    color: var(--cor-titulo);
+    padding: 0 1em ;
+}

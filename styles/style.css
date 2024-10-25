@@ -1,0 +1,21 @@
+@import url(../styles/header.css);
+@import url(../styles/main.css);
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Poppins&display=swap');
+
+
+:root {
+    --cor-fundo: #0d3b66;
+    --cor-texto: #faf0ca;
+    --cor-titulo: #f4d35e;
+    --font:"Poppins";
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--font);
+    font-size: 1em;
+    font-weight: 400;
+    box-sizing: border-box;
+    
+}
